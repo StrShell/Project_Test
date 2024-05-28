@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from 'next/link'
 import { Inter } from "next/font/google";
 import styles from "@/styles/mainpage.module.css";
 
@@ -19,17 +20,17 @@ export default function Home() {
         {/* 상단 네비게이션바 */}
         <nav className={styles.navbar}>
           <div className={styles.navbarBrand}>
-            <a href="/">OTT 서비스</a>
+            <Link href="/">OTT 서비스</Link>
           </div>
           <ul className={styles.navbarNav}>
             <li className={styles.navItem}>
-              <a href="/movies">영화</a>
+              <Link href="/movies">영화</Link>
             </li>
             <li className={styles.navItem}>
-              <a href="/tv-shows">TV 프로그램</a>
+              <Link href="/tv-shows">TV 프로그램</Link>
             </li>
             <li className={styles.navItem}>
-              <a href="/my-list">내 목록</a>
+              <Link href="/my-list">내 목록</Link>
             </li>
           </ul>
         </nav>
