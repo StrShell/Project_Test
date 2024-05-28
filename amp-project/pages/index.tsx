@@ -1,6 +1,6 @@
 // Next.js 프레임워크를 사용하여 React 컴포넌트를 생성합니다.
 import React from 'react';
-
+import Head from "next/head";
 // CSS 파일을 가져와 스타일을 적용합니다.
 import styles from '@/styles/mainpage.module.css';
 
