@@ -5,7 +5,7 @@ import React from 'react';
 import styles from './mainpage.module.css';
 
 // 메인 화면 컴포넌트
-const MainPage: React.FC = () => {
+function MainPage() {
   return (
     <div className={styles.container}>
       {/* 상단 네비게이션바 */}
