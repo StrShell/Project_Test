@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <ul className={styles.navbarNav}>
             <li className={styles.navItem}>
-              <Link href="/movies">영화</Link>
+              <Link href="/hlsplayer">영화</Link>
             </li>
             <li className={styles.navItem}>
               <Link href="/tv-shows">TV 프로그램</Link>
