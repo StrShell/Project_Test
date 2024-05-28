@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import VideoPlayer from "../components/video-player";
-import styles from './hlsplayer.module.css';
+import styles from '@/styles/hlsplayer.module.css';
 
 const Hlsplayer = () => {
     return(
