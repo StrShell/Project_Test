@@ -2,7 +2,7 @@
 import React from 'react';
 
 // CSS 파일을 가져와 스타일을 적용합니다.
-import styles from './mainpage.css';
+import styles from './mainpage.module.css';
 
 // 메인 화면 컴포넌트
 const MainPage: React.FC = () => {
