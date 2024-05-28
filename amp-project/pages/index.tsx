@@ -1,13 +1,14 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-  // CSS 파일을 가져와 스타일을 적용합니다.
-import styles from '@/styles/mainpage.module.css';
-const inter = Inter({ subsets: ["latin"] });
+// Next.js 프레임워크를 사용하여 React 컴포넌트를 생성합니다.
+import React from 'react';
 
-const Index = () => {
+// CSS 파일을 가져와 스타일을 적용합니다.
+import styles from '@/styles/mainpage.module.css';
+
+// 메인 화면 컴포넌트
+const MainPage = () => {
   return (
     <div className={styles.container}>
+      {/* 상단 네비게이션바 */}
       <nav className={styles.navbar}>
         <div className={styles.navbarBrand}>
           <a href="/">OTT 서비스</a>
@@ -25,6 +26,7 @@ const Index = () => {
         </ul>
       </nav>
 
+      {/* 메인 콘텐츠 */}
       <main className={styles.mainContent}>
         <section className={styles.hero}>
           <h1>OTT 서비스에 오신 것을 환영합니다!</h1>
@@ -33,10 +35,11 @@ const Index = () => {
         </section>
         <section className={styles.featured}>
           <h2>인기 콘텐츠</h2>
+          {/* 인기 콘텐츠 목록 */}
         </section>
       </main>
     </div>
   );
 };
 
-export default Index;
+export default MainPage;
