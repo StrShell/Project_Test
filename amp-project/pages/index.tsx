@@ -1,12 +1,22 @@
 import Head from "next/head";
 import Image from "next/image";
+import axios from 'axios';
 import Link from 'next/link'
 import { Inter } from "next/font/google";
 import styles from "@/styles/mainpage.module.css";
+import { listenerCount } from "process";
 
 const inter = Inter({ subsets: ["latin"] });
+axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.responseType = "json"
+
 
 export default function Home() {
+  axios.post('/')
+  .then(function (response) {
+    const data = JSON.parse(response.data);
+  })
+
   return (
     <>
       <Head>
@@ -45,6 +55,15 @@ export default function Home() {
           <section className={styles.featured}>
             <h2>인기 콘텐츠</h2>
             {/* 인기 콘텐츠 목록 */}
+              <section>
+                <h2>영화</h2>
+                  <div>
+                    <Link href="hlsplayer"><img src='${data.vod_sync}' alt="error" width="30" height="30"></img>$data.vod_name</Link>
+                    <Link href="hlsplayer"><img src='${data.vod_sync}' alt="error" width="30" height="30"></img>$data.vod_name</Link>
+                    <Link href="hlsplayer"><img src='${data.vod_sync}' alt="error" width="30" height="30"></img>$data.vod_name</Link>
+                    <Link href="hlsplayer"><img src='${data.vod_sync}' alt="error" width="30" height="30"></img>$data.vod_name</Link>
+                  </div>
+              </section>
           </section>
         </main>
       </div>
