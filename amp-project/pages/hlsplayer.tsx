@@ -8,7 +8,7 @@ axios.defaults.responseType = "json"
 
 
 const Hlsplayer = () => {
-    axios.post('/파묘')
+    axios.get('/파묘')
     .then(function (response) {
       const StaticData = JSON.parse(response.data);
     })
