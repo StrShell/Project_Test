@@ -49,7 +49,7 @@ export default function Home() {
         <main className={styles.mainContent}>
           <section className={styles.hero}>
             <h1>OTT 서비스에 오신 것을 환영합니다!</h1>
-            <p>다양한 영화와 TV 프로그램을 즐겨보세요.</p>
+            <p>다양한 영화와 TV 프로그램을 즐겨보세요.a</p>
             <button className={styles.heroButton}>지금 시작하기</button>
           </section>
           <section className={styles.featured}>
