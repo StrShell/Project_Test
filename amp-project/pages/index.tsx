@@ -58,10 +58,10 @@ export default function Home() {
               <section>
                 <h2>영화</h2>
                   <div>
-                    <Link href="hlsplayer"><img src='${data.vod_sync}' alt="error" width="30" height="30"></img>$data.vod_name</Link>
-                    <Link href="hlsplayer"><img src='${data.vod_sync}' alt="error" width="30" height="30"></img>$data.vod_name</Link>
-                    <Link href="hlsplayer"><img src='${data.vod_sync}' alt="error" width="30" height="30"></img>$data.vod_name</Link>
-                    <Link href="hlsplayer"><img src='${data.vod_sync}' alt="error" width="30" height="30"></img>$data.vod_name</Link>
+                    <Link href="hlsplayer"><img src='${data[7].vod_sync}' alt="error" width="30" height="30"></img>$data[0].vod_name</Link>
+                    <Link href="hlsplayer"><img src='${data[1].vod_sync}' alt="error" width="30" height="30"></img>$data[1].vod_name</Link>
+                    <Link href="hlsplayer"><img src='${data[2].vod_sync}' alt="error" width="30" height="30"></img>$data[2].vod_name</Link>
+                    <Link href="hlsplayer"><img src='${data[3].vod_sync}' alt="error" width="30" height="30"></img>$data[3].vod_name</Link>
                   </div>
               </section>
           </section>
