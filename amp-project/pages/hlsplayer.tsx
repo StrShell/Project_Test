@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import React, { useEffect, useRef } from 'react';
 import VideoPlayer from "../components/video-player";
 import styles from '@/styles/hlsplayer.module.css';
-import Head from 'next/head';
 
 axios.defaults.baseURL = "http://192.168.0.25:5000";
 axios.defaults.responseType = "json"
