@@ -11,7 +11,7 @@ axios.defaults.responseType = "json"
 const inter = Inter({ subsets: ["latin"] });
 
 const Hlsplayer = () => {
-    axios.get('/파묘')
+    axios.get('/data')
     .then(function (response) {
       const StaticData = JSON.parse(response.data);
     })
