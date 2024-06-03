@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, { HttpStatusCode } from 'axios';
 import Link from 'next/link'
 import { Inter } from "next/font/google";
 import React, { useEffect, useState } from 'react';
@@ -7,6 +7,7 @@ import styles from '@/styles/hlsplayer.module.css';
 
 axios.defaults.baseURL = "https://43.202.4.22:5000";
 axios.defaults.responseType = "json"
+axios.defaults.httpsAgent = new https.agent({ rejectUnathorized: false });
 
 const inter = Inter({ subsets: ["latin"] });
 
