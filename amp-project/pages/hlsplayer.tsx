@@ -32,7 +32,7 @@ const Hlsplayer = () => {
 
     return(
         <div className={styles.container}>
-            <VideoPlayer src="${response[0].vod_url_s3}" />
+            <VideoPlayer src="{response[0].vod_url_s3}" />
         </div>
     );
 };
