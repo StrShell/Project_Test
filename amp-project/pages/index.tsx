@@ -30,7 +30,7 @@ export default function Home() {
         {/* 상단 네비게이션바 */}
         <nav className={styles.navbar}>
           <div className={styles.navbarBrand}>
-            <Link href="/">OTT 서비스</Link>
+            <Link href="/">OTT 서비a스</Link>
           </div>
           <ul className={styles.navbarNav}>
             <li className={styles.navItem}>
