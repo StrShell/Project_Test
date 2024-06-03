@@ -21,8 +21,8 @@ const Hlsplayer = () => {
             try {
                 const response = await axios.get('/data');
                 setStaticData(response.data);
-                const video = document.getElementsByTagName('VideoPlayer');
-                video.item = response.data[0].vod_s3_url;
+                // const video = document.getElementsByTagName('VideoPlayer');
+                // video.item = response.data[0].vod_s3_url;
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -37,7 +37,7 @@ const Hlsplayer = () => {
     return(
         <script>
         <div className={styles.container}>
-            <VideoPlayer src />
+            <VideoPlayer src="${response.data[0].vod_s3_url}}" />
         </div>
         </script>
     );
