@@ -18,12 +18,12 @@ const Hlsplayer = () => {
         const fetchData = async () => {
             try {
                 const response = await axios.get('/data');
-                setStaticData(JSON.parse(response.data));
+                return JSON.parse(response.data);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
         };
-        fetchData();
+        const data = fetchData();
     }, []);
 
     if (!staticData) {
@@ -32,7 +32,7 @@ const Hlsplayer = () => {
 
     return(
         <div className={styles.container}>
-            <VideoPlayer src="${StaticData[0].vod_url_s3}" />
+            <VideoPlayer src="${data[0].vod_url_s3}" />
         </div>
     );
 };
