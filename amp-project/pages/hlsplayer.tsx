@@ -20,6 +20,7 @@ const Hlsplayer = () => {
             try {
                 const response = await axios.get('/data');
                 setVideoUrl(response.data[0].vod_s3_url);
+                console.log(videoUrl);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
