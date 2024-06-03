@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 axios.defaults.baseURL = "http://43.202.4.22:5000";
 axios.defaults.responseType = "json"
 
-
 export default function Home() {
   axios.get('/')
   .then(function (response) {
