@@ -7,7 +7,7 @@ import styles from '@/styles/hlsplayer.module.css';
 
 axios.defaults.baseURL = "https://43.202.4.22:5000";
 axios.defaults.responseType = "json"
-axios.defaults.httpsAgent = new https.agent({ rejectUnathorized: false });
+axios.defaults.httpsAgent =  { rejectUnathorized: false };
 
 const inter = Inter({ subsets: ["latin"] });
 
