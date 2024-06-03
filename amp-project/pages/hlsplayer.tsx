@@ -14,15 +14,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Hlsplayer = () => {
     const [staticData, setStaticData] = useState(null);
-    
+    const [videoUrl, setVideoUrl] = useState('');
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const response = await axios.get('/data');
                 setStaticData(response.data);
-                // const video = document.getElementsByTagName('VideoPlayer');
-                // video.item = response.data[0].vod_s3_url;
+                setVideoUrl(response.data[0].vod_s3_url);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -37,7 +36,7 @@ const Hlsplayer = () => {
     return(
         <script>
         <div className={styles.container}>
-            <VideoPlayer src="${response.data[0].vod_s3_url}}" />
+            <VideoPlayer src={videoUrl} />
         </div>
         </script>
     );
