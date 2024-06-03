@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import VideoPlayer from "../components/video-player";
 import styles from '@/styles/hlsplayer.module.css';
 
-axios.defaults.baseURL = "https://test.mainep.xyz:5000";
+axios.defaults.baseURL = "http://test.mainep.xyz:5000";
 axios.defaults.responseType = "json"
 axios.defaults.httpsAgent =  { rejectUnathorized: false };
 
