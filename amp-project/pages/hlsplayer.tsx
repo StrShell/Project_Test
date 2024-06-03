@@ -19,7 +19,7 @@ const Hlsplayer = () => {
         const fetchData = async () => {
             try {
                 const response = await axios.get('/data');
-                setVideoUrl(response.data[0][0]);
+                setVideoUrl(response.data[0]);
                 console.log(videoUrl);
             } catch (error) {
                 console.error('Error fetching data:', error);
