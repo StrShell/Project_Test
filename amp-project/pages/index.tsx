@@ -17,7 +17,7 @@ export default function Home() {
     const fetchData = async () => {
       try {
         const response = await axios.get('/');
-        setData(JSON.parse(response.data));
+        const responseData = JSON.parse(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -66,12 +66,12 @@ export default function Home() {
               <section>
                 <h2>영화</h2>
                 <div>
-                  {data.slice(0, 4).map((item, index) => (
+                  {/* {data.slice(0, 4).map((item, index) => (
                     <Link key={index} href={`/hlsplayer?id=${item.id}`}>
                       <img src={item.vod_sync} alt={item.vod_name} width="30" height="30" />
                       {item.vod_name}
                     </Link>
-                  ))}
+                  ))} */}
                 </div>
               </section>
             </section>
