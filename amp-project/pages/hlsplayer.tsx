@@ -26,9 +26,9 @@ const Hlsplayer = () => {
         const data = fetchData();
     }, []);
 
-    if (!staticData) {
-        return <div>Loading...</div>;
-    }
+    // if (!staticData) {
+    //     return <div>Loading...</div>;
+    // }
 
     return(
         <div className={styles.container}>
