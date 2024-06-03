@@ -10,7 +10,7 @@ axios.defaults.responseType = "json"
 
 const inter = Inter({ subsets: ["latin"] });
 
-const Hlsplayer = async () => {
+const Hlsplayer = () => {
     const [staticData, setStaticData] = useState(null);
 
     useEffect(() => {
