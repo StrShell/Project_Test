@@ -27,9 +27,9 @@ const Hlsplayer = () => {
         fetchData();
     }, []);
 
-    if (!videoUrl) {
-        return <div>Loading...</div>;
-    }
+    // if (!videoUrl) {
+    //     return <div>Loading...</div>;
+    // }
     
     return(
         <script>
