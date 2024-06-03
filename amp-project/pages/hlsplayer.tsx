@@ -12,12 +12,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Hlsplayer = async () => {
     try {
-        const response = await axios.get('/data')
+        const response = await axios.get('/data');
         const StaticData = JSON.parse(response.data);
     }
 
     catch(error) {
-        
+        console.error(error);
         
     }
 
