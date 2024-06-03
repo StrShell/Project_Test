@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Link from 'next/link'
 import { Inter } from "next/font/google";
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import VideoPlayer from "../components/video-player";
 import styles from '@/styles/hlsplayer.module.css';
 
@@ -11,14 +11,22 @@ axios.defaults.responseType = "json"
 const inter = Inter({ subsets: ["latin"] });
 
 const Hlsplayer = async () => {
-    try {
-        const response = await axios.get('/data');
-        const StaticData = JSON.parse(response.data);
-    }
+    const [staticData, setStaticData] = useState(null);
 
-    catch(error) {
-        console.error(error);
-        
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('/data');
+                setStaticData(JSON.parse(response.data));
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+        fetchData();
+    }, []);
+
+    if (!staticData) {
+        return <div>Loading...</div>;
     }
 
     return(
