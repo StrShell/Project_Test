@@ -32,11 +32,9 @@ const Hlsplayer = () => {
     // }
     
     return(
-        <script>
         <div className={styles.container}>
             <VideoPlayer src={videoUrl} />
         </div>
-        </script>
     );
 };
 
