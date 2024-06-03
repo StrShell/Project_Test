@@ -7,7 +7,7 @@ import styles from "@/styles/mainpage.module.css";
 import { listenerCount } from "process";
 
 const inter = Inter({ subsets: ["latin"] });
-axios.defaults.baseURL = "http://43.202.4.22:5000";
+axios.defaults.baseURL = "https://43.202.4.22:5000";
 axios.defaults.responseType = "json"
 
 

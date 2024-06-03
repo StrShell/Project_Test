@@ -5,7 +5,7 @@ import React, { useEffect, useRef } from 'react';
 import VideoPlayer from "../components/video-player";
 import styles from '@/styles/hlsplayer.module.css';
 
-axios.defaults.baseURL = "http://43.202.4.22:5000";
+axios.defaults.baseURL = "https://43.202.4.22:5000";
 axios.defaults.responseType = "json"
 
 const inter = Inter({ subsets: ["latin"] });
