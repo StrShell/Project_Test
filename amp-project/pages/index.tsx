@@ -12,7 +12,7 @@ axios.defaults.responseType = "json"
 
 
 export default function Home() {
-  axios.post('/')
+  axios.get('/')
   .then(function (response) {
     const data = JSON.parse(response.data);
   })
