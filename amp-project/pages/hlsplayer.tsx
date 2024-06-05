@@ -14,6 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Hlsplayer = () => {
     const [videoUrl, setVideoUrl] = useState('');
+    const [thumpNail, setThumpNail] = useState('');
 
     useEffect(() => {
         const fetchData = async () => {
@@ -59,6 +60,38 @@ const Hlsplayer = () => {
               <section>
                 <div className={styles.player}>
                     <VideoPlayer src={videoUrl} />
+                </div>
+              </section>
+              <section className={styles.thump}>
+                <div>
+                    <Link href="/">
+                    <img src={thumpNail[0]} alt="2화" width="30" height="30" />
+                      2화
+                    </Link>
+                    <Link href="/">
+                    <img src={thumpNail[1]} alt="3화" width="30" height="30" />
+                      3화
+                    </Link>
+                </div>
+                <div>
+                    <Link href="/">
+                    <img src={thumpNail[0]} alt="4화" width="30" height="30" />
+                      4화
+                    </Link>
+                    <Link href="/">
+                    <img src={thumpNail[1]} alt="5화" width="30" height="30" />
+                      5화
+                    </Link>
+                </div>
+                <div>
+                    <Link href="/">
+                    <img src={thumpNail[0]} alt="6화" width="30" height="30" />
+                      6화
+                    </Link>
+                    <Link href="/">
+                    <img src={thumpNail[1]} alt="7화" width="30" height="30" />
+                      7화
+                    </Link>
                 </div>
               </section>
             </section>
