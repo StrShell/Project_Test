@@ -64,17 +64,22 @@ const Hlsplayer = () => {
               </section>
               </section>
               <section className={styles.thump}>
-                <div>
+                <section>
+                  <div>
                     <Link href="/">
                     <img src={thumpNail[0]} alt="2화" width="30" height="30" />
                       2화
                     </Link>
+                  </div>
+                  <div>
                     <Link href="/">
                     <img src={thumpNail[1]} alt="3화" width="30" height="30" />
                       3화
                     </Link>
-                </div>
-                <div>
+                  </div>
+                </section>
+                <section>
+                  <div>
                     <Link href="/">
                     <img src={thumpNail[0]} alt="4화" width="30" height="30" />
                       4화
@@ -83,8 +88,10 @@ const Hlsplayer = () => {
                     <img src={thumpNail[1]} alt="5화" width="30" height="30" />
                       5화
                     </Link>
-                </div>
-                <div>
+                  </div>
+                </section>
+                <section>
+                  <div>
                     <Link href="/">
                     <img src={thumpNail[0]} alt="6화" width="30" height="30" />
                       6화
@@ -93,7 +100,8 @@ const Hlsplayer = () => {
                     <img src={thumpNail[1]} alt="7화" width="30" height="30" />
                       7화
                     </Link>
-                </div>
+                  </div>
+                </section>
               </section>
           </main>
         </div>
