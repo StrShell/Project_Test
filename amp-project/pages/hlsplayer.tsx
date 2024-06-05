@@ -39,19 +39,8 @@ const Hlsplayer = () => {
           {/* 상단 네비게이션바 */}
           <nav className={styles.navbar}>
             <div className={styles.navbarBrand}>
-              <Link href="/">OTT 서비a스</Link>
+              <Link href="/">OTT 서비스</Link>
             </div>
-            <ul className={styles.navbarNav}>
-              <li className={styles.navItem}>
-                <Link href="/hlsplayer">영화</Link>
-              </li>
-              <li className={styles.navItem}>
-                <Link href="/tv-shows">TV 프로그램</Link>
-              </li>
-              <li className={styles.navItem}>
-                <Link href="/my-list">내 목록</Link>
-              </li>
-            </ul>
           </nav>
           <main className={styles.mainContent}>
             <section className={styles.featured}>
