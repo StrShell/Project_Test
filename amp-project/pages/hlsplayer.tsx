@@ -62,6 +62,7 @@ const Hlsplayer = () => {
                     <VideoPlayer src={videoUrl} />
                 </div>
               </section>
+              </section>
               <section className={styles.thump}>
                 <div>
                     <Link href="/">
@@ -94,7 +95,6 @@ const Hlsplayer = () => {
                     </Link>
                 </div>
               </section>
-            </section>
           </main>
         </div>
         </main>
