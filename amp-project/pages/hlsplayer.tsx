@@ -57,7 +57,7 @@ const Hlsplayer = () => {
               <h2>인기 콘텐츠</h2>
               {/* 인기 콘텐츠 목록 */}
               <section>
-                <div className={styles.container}>
+                <div className={styles.player}>
                     <VideoPlayer src={videoUrl} />
                 </div>
               </section>

@@ -91,4 +91,9 @@
     font-size: 2rem;
     margin-bottom: 1rem;
   }
+
+  .player {
+    display: flex;
+    justify-content: center;
+  }
   
