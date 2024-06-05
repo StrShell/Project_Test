@@ -95,5 +95,6 @@
   .player {
     display: flex;
     justify-content: center;
+    max-width: 100%;
   }
   
