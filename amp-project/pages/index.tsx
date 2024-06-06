@@ -7,7 +7,7 @@ import styles from "@/styles/mainpage.module.css";
 import { useState, useEffect } from 'react';
 
 const inter = Inter({ subsets: ["latin"] });
-axios.defaults.baseURL = "https://gy5uzaw2c7.ap-northeast-1.awsapprunner.com";
+axios.defaults.baseURL = "https://peij7sabwv.ap-northeast-1.awsapprunner.com";
 axios.defaults.responseType = "json"
 
 export default function Home() {

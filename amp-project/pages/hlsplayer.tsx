@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import VideoPlayer from "../components/video-player";
 import styles from '@/styles/mainpage.module.css';
 
-axios.defaults.baseURL = "https://gy5uzaw2c7.ap-northeast-1.awsapprunner.com";
+axios.defaults.baseURL = "https://peij7sabwv.ap-northeast-1.awsapprunner.com";
 axios.defaults.responseType = "json"
 axios.defaults.httpsAgent =  { rejectUnathorized: false };
 
