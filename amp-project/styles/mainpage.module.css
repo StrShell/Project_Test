@@ -32,6 +32,25 @@
     align-items: center;
     margin: 30px;
   }
+
+  .featured h2 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .featured div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 20px; /* 썸네일 사이의 간격을 조정합니다. 필요에 따라 값을 조절하세요 */
+  }
+  
+  .featured img {
+    border-radius: 5px; /* 썸네일의 모서리를 둥글게 합니다. */
+  }
+  
   
   /* 플레이어 위치 조정 */
   .player {
