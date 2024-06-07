@@ -51,14 +51,12 @@ export default function Home() {
             <section className={styles.featured}>
               <section>
                 <h2>영화</h2>
-                <section>
                   <div>
-                      <Link href="/hlsplayer">
-                        <img src={data[0]} alt={data[0]} width="30" height="30" />
-                        {data[0]}
-                      </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
                   </div>
-                </section>
               </section>
             </section>
           </main>
