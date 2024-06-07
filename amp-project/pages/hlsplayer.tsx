@@ -67,21 +67,21 @@ const Hlsplayer = () => {
                 </div>
                 <div>
                   <Link href="/">
-                  <img src={thumpNail[0]} alt="4화" width="30" height="30" />
+                  <img src={thumpNail[3]} alt="4화" width="30" height="30" />
                     4화
                   </Link>
                   <Link href="/">
-                  <img src={thumpNail[1]} alt="5화" width="30" height="30" />
+                  <img src={thumpNail[4]} alt="5화" width="30" height="30" />
                     5화
                   </Link>
                 </div>
                 <div>
                   <Link href="/">
-                  <img src={thumpNail[0]} alt="6화" width="30" height="30" />
+                  <img src={thumpNail[5]} alt="6화" width="30" height="30" />
                     6화
                   </Link>
                   <Link href="/">
-                  <img src={thumpNail[1]} alt="7화" width="30" height="30" />
+                  <img src={thumpNail[6]} alt="7화" width="30" height="30" />
                     7화
                   </Link>
                 </div>

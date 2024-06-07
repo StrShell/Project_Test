@@ -34,7 +34,7 @@
   }
 
   .featured h2 {
-    align-self: left;
+    align-self: flex-start;
     font-size: 28px;
     margin-bottom: 20px;
   }
