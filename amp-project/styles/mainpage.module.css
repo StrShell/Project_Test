@@ -36,7 +36,6 @@
   .featured h2 {
     text-align: left;
     font-size: 28px;
-    margin-top: 40px;
     margin-bottom: 20px;
   }
   
@@ -52,6 +51,9 @@
     border-radius: 5px; /* 썸네일의 모서리를 둥글게 합니다. */
   }
   
+  .sync h2 {
+    margin-top: 60px;
+  }
   
   /* 플레이어 위치 조정 */
   .player {

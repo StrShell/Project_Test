@@ -49,9 +49,84 @@ export default function Home() {
               <p>다양한 영화와 TV 프로그램을 즐겨보세요.</p>
             </section>
             <section className={styles.featured}>
-              <section>
+              <section className={styles.sync}>
                 <h2>영화</h2>
                   <div>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                  </div>
+              </section>
+              <section className={styles.sync}>
+                <h2>드라마</h2>
+                  <div>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                  </div>
+              </section>
+              <section className={styles.sync}>
+                <h2>애니메이션</h2>
+                  <div>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                  </div>
+              </section>
+              <section className={styles.sync}>
+                <h2>예능</h2>
+                  <div>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
+                    <Link href="/hlsplayer">
+                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
+                      {data[0]}
+                    </Link>
                     <Link href="/hlsplayer">
                       <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
                       {data[0]}
