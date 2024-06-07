@@ -54,7 +54,7 @@ const Hlsplayer = () => {
             </section>
           </main>
           <main className={styles.mainContent}>
-              <section className={styles.thump}>
+              <section className={styles.featured}>
                 <div>
                   <Link href="/">
                   <img src={thumpNail[0]} alt="2화" width="30" height="30" />

@@ -64,12 +64,12 @@
     margin: auto; /* 중앙 정렬 */
   }
   
-  /* 썸네일 이미지 배치 */
+  /* 썸네일 이미지 배치
   .thump {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* 썸네일 주변 공간 균등 배분 */
-    gap: 10px; /* 썸네일 사이의 간격 */
+    justify-content: space-around; /* 썸네일 주변 공간 균등 배분 
+    gap: 10px; /* 썸네일 사이의 간격 
   }
   
   .thump div {
@@ -79,5 +79,5 @@
   }
   
   .thump img {
-    margin-bottom: 5px; /* 이미지와 텍스트 사이 간격 */
-  }
+    margin-bottom: 5px; /* 이미지와 텍스트 사이 간격 
+  } */
