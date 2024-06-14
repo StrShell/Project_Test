@@ -113,7 +113,7 @@ export default function Home() {
                   </div>
               </section>
               <section className={styles.sync}>
-                <h2>예능1</h2>
+                <h2>예능</h2>
                   <div>
                     <Link href="/hlsplayer">
                       <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
