@@ -45,8 +45,7 @@
     align-items: center;
     justify-content: start;
     gap: 60px; /* 썸네일 사이의 간격을 조정합니다. 필요에 따라 값을 조절하세요 */
-    margin-top: 50px;
-    margin: auto;
+    margin-top: 60px;
   }
   
   .featured img {
