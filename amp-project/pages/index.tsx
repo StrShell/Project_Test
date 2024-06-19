@@ -49,8 +49,8 @@ export default function Home() {
               <p>다양한 영화와 TV 프로그램을 즐겨보세요.</p>
             </section>
             <section className={styles.featured}>
-              <h2>영화</h2>
-              <section className={styles.sync}>  
+              <section className={styles.sync}>
+                <h2>영화</h2>
                 <div>
                   <Link href="/na1">
                     <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="208" height="117" />
