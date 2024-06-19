@@ -52,59 +52,59 @@ export default function Home() {
               <section className={styles.sync}>
                 <h2>영화</h2>
                 <div>
-                  <Link href="/na1">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text</p>
+                  <Link href="/g1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/g1/THUMB/g1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>그레이하운드</p>
                   </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text2</p>
+                  <Link href="/e1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/e1/THUMB/e1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>2012</p>
                   </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text3</p>
+                  <Link href="/m1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/m1/THUMB/m1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>미드웨이</p>
                   </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text4</p>
+                  <Link href="/gang1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/gang1/THUMB/gang1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>강릉</p>
                   </Link>
                 </div>
 
                 <h2>드라마</h2>
                 <div>
-                  <Link href="/na1">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text</p>
+                  <Link href="/go1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/drama/vod/go1/THUMB/go1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>고려거란전쟁</p>
                   </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text2</p>
+                  <Link href="/du1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/drama/vod/du1/THUMB/du1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>두뇌공조</p>
                   </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text3</p>
+                  <Link href="/zin1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/drama/vod/zin1/THUMB/zin1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>진검승부</p>
                   </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text4</p>
+                  <Link href="/chun1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/drama/vod/chun1/THUMB/chun1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>천명</p>
                   </Link>
                 </div>
 
                 <h2>애니메이션</h2>
                 <div>
-                  <Link href="/na1">
+                  <Link href="/ania1">
                     <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
                     <p>Text</p>
                   </Link>
-                  <Link href="/hlsplayer">
+                  <Link href="/anib1">
                     <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
                     <p>Text2</p>
                   </Link>
-                  <Link href="/hlsplayer">
+                  <Link href="/anic1">
                     <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
                     <p>Text3</p>
                   </Link>
-                  <Link href="/hlsplayer">
+                  <Link href="/anid1">
                     <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
                     <p>Text4</p>
                   </Link>
@@ -112,21 +112,21 @@ export default function Home() {
 
                 <h2>예능</h2>
                 <div>
+                  <Link href="/nol1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/enter/vod/nol1/THUMB/nol1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>놀면 뭐하니</p>
+                  </Link>
                   <Link href="/na1">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text</p>
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/enter/vod/na1/THUMB/na1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>나 혼자 산다</p>
                   </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text2</p>
+                  <Link href="/mu1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/enter/vod/mu1/THUMB/mu1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>무한도전</p>
                   </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text3</p>
-                  </Link>
-                  <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
-                    <p>Text4</p>
+                  <Link href="/shin1">
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/enter/vod/shin1/THUMB/shin1.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
+                    <p>신서유기</p>
                   </Link>
                 </div>
               </section>
