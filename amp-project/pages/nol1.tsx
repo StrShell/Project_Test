@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import React, { useEffect, useState } from 'react';
 import VideoPlayer from "../components/video-player";
 import styles from '@/styles/mainpage.module.css';
+import Head from 'next/head';
 
 axios.defaults.baseURL = "https://peij7sabwv.ap-northeast-1.awsapprunner.com";
 axios.defaults.responseType = "json"
@@ -35,7 +36,9 @@ const Hlsplayer = () => {
     // }
     
     return(
+        
         <main className={`${styles.main} ${inter.className}`}>
+        <title>놀면 뭐하니 1화</title>
         <div className={styles.container}>
           {/* 상단 네비게이션바 */}
           <nav className={styles.navbar}>
