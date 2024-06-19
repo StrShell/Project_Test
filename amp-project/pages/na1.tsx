@@ -14,13 +14,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Hlsplayer = () => {
     const [videoUrl, setVideoUrl] = useState('');
-    const [thumpNail, setThumpNail] = useState('');
+    
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('/data');
+                const response = await axios.get('/na1');
                 setVideoUrl(response.data[0].vod_url_s3);
+                
                 console.log(videoUrl);
             } catch (error) {
                 console.error('Error fetching data:', error);
@@ -48,7 +49,7 @@ const Hlsplayer = () => {
               {/* 인기 콘텐츠 목록 */}
               <section>
                 <div className={styles.player}>
-                    <VideoPlayer src={videoUrl} />
+                    <VideoPlayer src={videoUrl[0]} />
                 </div>
               </section>
             </section>
@@ -56,33 +57,29 @@ const Hlsplayer = () => {
           <main className={styles.mainContent}>
               <section className={styles.featured}>
                 <div>
-                  <Link href="/">
-                  <img src={thumpNail[0]} alt="2화" width="30" height="30" />
+                  <Link href="/na2">
+                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="2화" width="30" height="30" />
                     2화
                   </Link>
-                  <Link href="/">
-                  <img src={thumpNail[1]} alt="3화" width="30" height="30" />
+                  <Link href="/na3">
+                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="3화" width="30" height="30" />
                     3화
                   </Link>
                 </div>
                 <div>
-                  <Link href="/">
-                  <img src={thumpNail[3]} alt="4화" width="30" height="30" />
+                  <Link href="/na4">
+                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="4화" width="30" height="30" />
                     4화
                   </Link>
-                  <Link href="/">
-                  <img src={thumpNail[4]} alt="5화" width="30" height="30" />
+                  <Link href="/na5">
+                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="5화" width="30" height="30" />
                     5화
                   </Link>
                 </div>
                 <div>
-                  <Link href="/">
-                  <img src={thumpNail[5]} alt="6화" width="30" height="30" />
+                  <Link href="/na6">
+                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="6화" width="30" height="30" />
                     6화
-                  </Link>
-                  <Link href="/">
-                  <img src={thumpNail[6]} alt="7화" width="30" height="30" />
-                    7화
                   </Link>
                 </div>
               </section>

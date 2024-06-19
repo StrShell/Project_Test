@@ -11,19 +11,19 @@ axios.defaults.baseURL = "https://peij7sabwv.ap-northeast-1.awsapprunner.com";
 axios.defaults.responseType = "json"
 
 export default function Home() {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get('/');
-        setData(response.data.vod_name);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await axios.get('/');
+  //       setData(response.data.vod_thumnail);
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   };
+  //   fetchData();
+  // }, []);
 
   return (
     <>
@@ -52,87 +52,25 @@ export default function Home() {
               <section className={styles.sync}>
                 <h2>영화</h2>
                   <div>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
+                    <Link href="/na1">
+                      <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="30" height="30" />
+                      Text
                     </Link>
                     <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
+                      <img src={'https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg'} alt="@public/favicon.ico" width="30" height="30" />
+                      Text2
                     </Link>
                     <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
+                      <img src={'https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg'} alt="@public/favicon.ico" width="30" height="30" />
+                      Text3
                     </Link>
                     <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                  </div>
-              </section>
-              <section className={styles.sync}>
-                <h2>드라마</h2>
-                  <div>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
+                      <img src={'https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg'} alt="@public/favicon.ico" width="30" height="30" />
+                      Text4
                     </Link>
                   </div>
               </section>
-              <section className={styles.sync}>
-                <h2>애니메이션</h2>
-                  <div>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                  </div>
-              </section>
-              <section className={styles.sync}>
-                <h2>예능</h2>
-                  <div>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                    <Link href="/hlsplayer">
-                      <img src={data[0]} alt="@public/favicon.ico" width="30" height="30" />
-                      {data[0]}
-                    </Link>
-                  </div>
-              </section>
+
             </section>
           </main>
         </div>
