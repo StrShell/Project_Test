@@ -67,9 +67,8 @@ const Hlsplayer = () => {
                       <p>2화</p>
                     </Link>
                     <Link href="/na3">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="4화" width="208" height="117" >
-                        3화
-                      </img>
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="4화" width="208" height="117" />
+                        <p>3화</p>
                     </Link>
                   </div>
                   <div>
