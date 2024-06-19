@@ -57,15 +57,15 @@ export default function Home() {
                       Text
                     </Link>
                     <Link href="/hlsplayer">
-                      <img src={'https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg'} alt="@public/favicon.ico" width="30" height="30" />
+                      <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="30" height="30" />
                       Text2
                     </Link>
                     <Link href="/hlsplayer">
-                      <img src={'https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg'} alt="@public/favicon.ico" width="30" height="30" />
+                      <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="30" height="30" />
                       Text3
                     </Link>
                     <Link href="/hlsplayer">
-                      <img src={'https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg'} alt="@public/favicon.ico" width="30" height="30" />
+                      <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="30" height="30" />
                       Text4
                     </Link>
                   </div>
