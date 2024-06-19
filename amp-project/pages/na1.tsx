@@ -16,19 +16,19 @@ const Hlsplayer = () => {
     const [videoUrl, setVideoUrl] = useState('');
     
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await axios.get('/na1');
-                setVideoUrl(response.data[0].vod_url_s3);
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await axios.get('/na1');
+    //             setVideoUrl(response.data[0].vod_url_s3);
                 
-                console.log(videoUrl);
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            }
-        };
-        fetchData();
-    }, []);
+    //             console.log(videoUrl);
+    //         } catch (error) {
+    //             console.error('Error fetching data:', error);
+    //         }
+    //     };
+    //     fetchData();
+    // }, []);
 
     // if (!videoUrl) {
     //     return <div>Loading...</div>;
