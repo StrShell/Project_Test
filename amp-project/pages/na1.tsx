@@ -58,27 +58,27 @@ const Hlsplayer = () => {
               <section className={styles.featured}>
                 <div>
                   <Link href="/na2">
-                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="2화" width="30" height="30" />
+                  <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="2화" width="30" height="30" />
                     2화
                   </Link>
                   <Link href="/na3">
-                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="3화" width="30" height="30" />
+                  <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="3화" width="30" height="30" />
                     3화
                   </Link>
                 </div>
                 <div>
                   <Link href="/na4">
-                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="4화" width="30" height="30" />
+                  <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="4화" width="30" height="30" />
                     4화
                   </Link>
                   <Link href="/na5">
-                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="5화" width="30" height="30" />
+                  <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="5화" width="30" height="30" />
                     5화
                   </Link>
                 </div>
                 <div>
                   <Link href="/na6">
-                  <img src='https://d8oiaj9ak2htb.cloudfront.net/enter/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="6화" width="30" height="30" />
+                  <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="6화" width="30" height="30" />
                     6화
                   </Link>
                 </div>
