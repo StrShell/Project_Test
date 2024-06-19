@@ -53,19 +53,19 @@ export default function Home() {
                 <h2>영화</h2>
                 <div>
                   <Link href="/na1">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="208" height="117" />
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
                     <p>Text</p>
                   </Link>
                   <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="208" height="117" />
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
                     <p>Text2</p>
                   </Link>
                   <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="208" height="117" />
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
                     <p>Text3</p>
                   </Link>
                   <Link href="/hlsplayer">
-                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="208" height="117" />
+                    <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/movie/vod/pamyo3/THUMB/pamyo3.0000000.jpg' alt="@public/favicon.ico" width="240" height="135" />
                     <p>Text4</p>
                   </Link>
                 </div>
