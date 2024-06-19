@@ -48,7 +48,7 @@ const Hlsplayer = () => {
           </nav>
           <main className={styles.mainContent}>
             <section className={styles.featured}>
-              <h2>인기 콘텐츠</h2>
+              <h2>놀면 뭐하니 1화</h2>
               {/* 인기 콘텐츠 목록 */}
               <section>
                 <div className={styles.player}>
