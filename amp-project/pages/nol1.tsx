@@ -56,7 +56,7 @@ const Hlsplayer = () => {
           </main>
           <main className={styles.mainContent}>
               <section className={styles.featured}>
-                <section className={styles.sync}>
+                <section className={styles.videosync}>
                   <div>
                     <Link href="/nol1">
                     <img src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/enter/vod/nol1/THUMB/nol1.0000000.jpg' alt="2화" width="240" height="135" />

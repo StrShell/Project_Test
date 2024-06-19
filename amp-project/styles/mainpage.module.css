@@ -48,6 +48,15 @@
     margin-top: 60px;
   }
   
+  .videosync div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 100px; /* 썸네일 사이의 간격을 조정합니다. 필요에 따라 값을 조절하세요 */
+    margin-top: 60px;
+  }
+
   .featured img {
     border-radius: 5px; /* 썸네일의 모서리를 둥글게 합니다. */
   }
@@ -58,6 +67,7 @@
 
   .sync p {
     text-align: center;
+    font-size: 20px;
   }
   
   /* 플레이어 위치 조정 */
