@@ -20,7 +20,7 @@ const Hlsplayer = () => {
     // useEffect(() => {
     //     const fetchData = async () => {
     //         try {
-    //             const response = await axios.get('/nol1');
+    //             const response = await axios.get('/nol5');
     //             setVideoUrl(response.data[0].vod_url_s3);
                 
     //             console.log(videoUrl);
@@ -38,7 +38,7 @@ const Hlsplayer = () => {
     return(
         
         <main className={`${styles.main} ${inter.className}`}>
-        <title>놀면 뭐하니 1화</title>
+        <title>놀면 뭐하니 6화</title>
         <div className={styles.container}>
           {/* 상단 네비게이션바 */}
           <nav className={styles.navbar}>
@@ -48,11 +48,11 @@ const Hlsplayer = () => {
           </nav>
           <main className={styles.mainContent}>
             <section className={styles.featured}>
-              <h2>놀면 뭐하니 1화</h2>
+              <h2>놀면 뭐하니 6화</h2>
               {/* 인기 콘텐츠 목록 */}
               <section>
                 <div className={styles.player}>
-                    <VideoPlayer src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/enter/vod/nol1/HLS/nol1_1280.m3u8' />
+                    <VideoPlayer src='https://vodasiabuk.s3.ap-northeast-2.amazonaws.com/enter/vod/nol2/HLS/nol2_1280.m3u8' />
                 </div>
               </section>
             </section>
