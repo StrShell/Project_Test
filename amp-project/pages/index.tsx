@@ -45,8 +45,8 @@ export default function Home() {
           {/* 메인 콘텐츠 */}
           <main className={styles.mainContent}>
             <section className={styles.hero}>
-              <h1>Test Title</h1>
-              <p>Test SubTitle</p>
+              <h1>OTT 서비스에 오신 것을 환영합니다!</h1>
+              <p>다양한 영화와 TV 프로그램을 즐겨보세요.</p>
             </section>
             <section className={styles.featured}>
               <section className={styles.sync}>
