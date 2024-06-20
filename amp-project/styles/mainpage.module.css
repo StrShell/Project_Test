@@ -33,6 +33,10 @@
     margin: 30px;
   }
 
+  .hero {
+    text-align: center;
+  }
+
   .featured h2 {
     text-align: left;
     font-size: 28px;
